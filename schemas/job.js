@@ -71,7 +71,6 @@ export default {
       title: 'City',
       type: 'string',
     },
-    
     {
       name: 'slug',
       title: 'Slug',
@@ -93,9 +92,22 @@ export default {
     },
     {
       name: 'host',
-      title: 'host',
+      title: 'host company',
       type: 'host',
+    },{
+      name: 'companyName',
+      title: 'CompanyName',
+      type: 'string',
     },
+    {
+      title: 'launchedDate',
+      name: 'date',
+      type: 'date',
+      options: {
+      dateFormat: '"dddd, MMMM Do YYYY,',
+    calendarTodayLabel: 'Today'
+  }
+   }
     // {
     //   name: 'reviews',
     //   title: 'Reviews',
